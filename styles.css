@@ -1,0 +1,52 @@
+/* =============================================
+   module3-solution/css/styles.css
+   Custom styles — no inline styles used
+   ============================================= */
+
+/* ----- Navbar ----- */
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+/* Mobile dropdown menu: full-width, distinct background */
+#mobile-menu {
+  background-color: #557a55;   /* muted green — clearly distinct */
+  width: 100%;
+}
+
+#mobile-menu .nav > li > a {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 12px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+#mobile-menu .nav > li > a:hover,
+#mobile-menu .nav > li > a:focus {
+  background-color: #3d5c3d;
+  color: #ffffff;
+}
+
+/* ----- Page Heading ----- */
+.page-heading {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 34px;
+  color: #333333;
+}
+
+/* ----- Tall Menu Section ----- */
+.menu-section {
+  background-color: #d9edf7;   /* light blue — clearly distinct from white */
+  min-height: 1000px;
+  padding: 30px 20px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #31708f;
+  border: 1px solid #bce8f1;
+}
